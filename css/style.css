@@ -1,0 +1,121 @@
+body {
+  background-color: #5E3448;
+      background-image: url("https://s-media-cache-ak0.pinimg.com/originals/b8/42/73/b84273935ccb49148fa54da57d6234e4.jpg");
+  background-size: 140% auto
+}
+h1{
+  text-align: center;
+  color: black;
+  font-family: "Hobo Std";
+  font-size: 3vw;
+  margin-top:0vw;
+  margin-bottom:.2vw
+}  
+.simonButton {
+  width: 20vw;
+  height: 20vw;
+  background-color: yellow;
+  border-bottom-right-radius: 20vw;
+  outline: none;  
+}
+.startAndReset{
+  align: center;
+  width: 3.9vw;
+  font-size: 1vw;
+  height: 2.5vw;
+}
+#red{
+  position: absolute; top:10vw;     
+  left:50vw;
+  background-color: red;
+}
+#blue{
+  position: absolute; 
+  top:30vw;
+  left:50vw;
+  background-color: blue;
+}
+#yellow{
+  position: absolute; top:30vw;
+  left:30vw;
+  background-color: yellow;
+}
+#green{
+  position: absolute; 
+  top:10vw; 
+  left:30vw;
+  background-color: green;
+}
+.borderButtons{
+  border: .65vw solid black;
+}
+#countBox{
+  background-color: #f3f3f3;
+  width:6vw;
+  height:2.4vw;
+  border-width: .3vw;  
+  border-style:inset;
+}
+#borderCountBox{
+  background-color: transparent;
+  margin-bottom:.5vw;
+}
+#circle {
+  border: 1.3vw solid black;
+  position: absolute; top:20vw;
+  left:40vw;
+  display: inline-block;
+  width: 20vw;
+  height: 20vw;
+  background: white;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  font-size: 1.2vw;
+}
+
+#strict{
+  font-size: 1vw;
+  margin: 0vw;
+}
+
+.rotate{
+   -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+}
+.rotate2{
+   -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+.rotate3{
+   -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 2vw;
+  height: 2vw;
+}
+.switch input {display:none;}
+.slider {
+  position: absolute;
+  border-style: outset;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+.slider.round {
+  border-radius: 4vw;
+}
